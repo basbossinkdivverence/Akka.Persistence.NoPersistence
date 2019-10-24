@@ -27,7 +27,7 @@ namespace Akka.Persistence.NoPersistence
 
         protected override Task<IImmutableList<Exception>> WriteMessagesAsync(IEnumerable<AtomicWrite> messages)
         {
-            return Task.FromResult(ImmutableList<Exception>.Empty as IImmutableList<Exception>);
+            return Task.FromResult((IImmutableList<Exception>) null); 
         }
 
         protected override Task DeleteMessagesToAsync(string persistenceId, long toSequenceNr)
