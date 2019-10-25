@@ -3,12 +3,12 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <Title>Akka.Persistence.NoPersistence</Title>
-    <Description>Tring can be used to quickly test a TCP connection.</Description>
+    <Description>An Akka.net persistence plugin that persists nothing.</Description>
     <IsPackable>true</IsPackable>
     <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
-    <RepositoryUrl>https://github.com/basbossinkdivverence/Akka.Persistence.NoPersistence</RepositoryUrl>
-    <PackageProjectUrl>https://github.com/basbossinkdivverence/Akka.Persistence.NoPersistence</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/divverence/Akka.Persistence.NoPersistence</RepositoryUrl>
+    <PackageProjectUrl>https://github.com/divverence/Akka.Persistence.NoPersistence</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <Copyright>Copyright 2019 Divverence B.V.</Copyright>
     <Authors>Divverence B.V. and authors</Authors>

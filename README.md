@@ -10,8 +10,8 @@ persistent but you want to reuse the given actor in a non-persistent
 manner. Using the builtin in memory persistence keeps all received
 messages in memory causing the memory usage of the application to grow
 over the lifetime of the execution of the application. This
-persistence plugin implements an `AsyncJournal` and `SnapshotStore`
-that stores and therefor recovers nothing and always succeeds at
+persistence plugin implements an `AsyncJournal` and a `SnapshotStore`
+that store and therefor recover nothing and always succeed at
 doing that 😉.
 
 
@@ -52,6 +52,6 @@ This work is licensed under the LGPL license, refer to the
 [COPYING.md][license] and [COPYING.LESSER.md][licenseExtension] files
 for details.
 
-[license]: https://raw.githubusercontent.com/hightechict/Tring/develop/COPYING
-[licenseExtension]: https://raw.githubusercontent.com/hightechict/Tring/develop/COPYING.LESSER
+[license]: COPYING
+[licenseExtension]: COPYING.LESSER
 [plug]: https://getakka.net/articles/persistence/storage-plugins.html
