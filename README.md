@@ -1,6 +1,6 @@
 # Akka.Persistence.NoPersistence
 
-An [Akka.net Persistence plugin][plug] that provides no persistence
+A [Akka.net Persistence plugin][plug] that provides no persistence
 whatsoever.
 
 ## Why is this useful?
@@ -20,7 +20,7 @@ doing that 😉.
 1. Add the package reference:
    ```sh
    dotnet add package Akka.Persistence.NoPersistence 
-   ````
+   ```
 2. Configure your application as described [here][plug]:
    ```bash
     akka.persistence {
