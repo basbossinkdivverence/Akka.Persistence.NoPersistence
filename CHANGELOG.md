@@ -11,6 +11,12 @@ Change log entries should be formulated in the imperative present tense.
 
 # Changelog
 
+## [1.0.1] - 2019-10-25
+
+### Fixed
+
+* Fix package verification problems, use a png for the logo instead of ico and include it in the package.
+
 ## [1.0.0] - 2019-10-25 
 
 ### Added
