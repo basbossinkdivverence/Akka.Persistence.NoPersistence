@@ -11,8 +11,8 @@ Change log entries should be formulated in the imperative present tense.
 
 # Changelog
 
-## [1.0.0] - 2019-10-24 
+## [1.0.0] - 2019-10-25 
 
-### Addded
+### Added
 
 * Initial release compatible with `Akka.Persistence` version `1.3.15` targeting `netstandard2.0`.
