@@ -12,7 +12,7 @@
     <RepositoryType>git</RepositoryType>
     <Copyright>Copyright 2019 Divverence B.V.</Copyright>
     <Authors>Divverence B.V. and authors</Authors>
-    <PackageIconUrl>https://avatars2.githubusercontent.com/u/12951285?s=200&amp;v=4</PackageIconUrl>
+    <PackageIcon>divverence.ico</PackageIcon>
     <PackageTags>Akka.net;Persistence</PackageTags>
   </PropertyGroup>
 
